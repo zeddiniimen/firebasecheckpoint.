@@ -1,0 +1,67 @@
+<!DOCTYPE HTML>
+<html>
+    <head> 
+        <title> contact </title>
+        <link rel="icon" href="https://velociosaintetienne.fr/wp-content/uploads/2017/06/contact.jpg">
+        <link rel="stylesheet" href="style.css">
+        <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-modal/0.9.1/jquery.modal.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>        
+    </head>
+    <body>
+      <div class="wholepage">
+    
+            <nav class="navbar navbar-expand-sm bg-danger navbar-dark">
+      <ul class="navbar-nav justify-content-center  w-100">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html"> Home</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="courses.html">Courses</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        
+      </ul>
+    </nav>
+          
+            <div class="div4">
+        
+            <h1>CONTACT</h1>
+            </div>
+             
+            <div class="div6">
+                <center>
+                
+                    <from id="contactForm" >
+                <labeln style="color:white;font-size:110%;font-family: Verdana, Geneva, Tahoma, sans-serif;">NAME</label><br><input id="name" type="text">
+                <br>
+                <label>TRACK</label><br>
+                <select id="track">
+                    <option >WEB</option>
+                    <option  >IA</option>
+                </select><br>
+                    <label>EMAIL ADRESS</label><BR>
+                    <input type="email" id="email">
+                    <br>
+                    <label>PHONE NUMBER</label><br>
+                    <input type="number" id="number"><br><br><br>
+                    <input id="submit" type="submit" onclick="submitForm()" value="submit" >
+
+            </from>
+        </center>
+    </div>   
+    </body>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.7.0/firebase.js"></script>
+
+<script src="main.js"></script>
+
+</html>

@@ -1,0 +1,240 @@
+body{
+    margin: 0;
+}
+ .wholepage{
+     width:"100%";
+     margin: 0;}
+.div1{
+    display:flex;
+    background-color: rgba(230, 24, 24, 0.781);
+    height: 80px;
+    justify-content: center;   
+} 
+
+
+ li a{
+    font-size:200%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    color: rgb(230, 223, 225);  
+    padding:35px;   
+} 
+li a:hover{
+    color:rgb(95, 4, 4);
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.div3{
+    display:flex;
+    display: inline-block;
+    flex-wrap: wrap;
+   width:100%; 
+   height:25em;
+   background-image: linear-gradient(to bottom left, rgb(102, 10, 10),black);    
+
+}
+.div3 p{
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(230, 223, 225);
+}
+
+.photo{
+position: relative;
+width:100%;
+display:inline-block;
+display:flex;
+justify-content: center;
+justify-content: space-around;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.div4{
+    width:100%; 
+    height:35em;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/webdev3.png");
+   display:flex;
+   justify-content: center;
+  }
+  .div4 h1{
+    font-size:450%;color:white;font-family: 'Poly', serif;
+ margin-top:2.75em;
+    
+  }
+  .div5{
+   width:100%; 
+   height:90em;
+   background-image: linear-gradient(to bottom left, rgb(102, 10, 10),black);
+   display:flex;
+   display:inline-block;
+}
+.div5 .feedback{
+    background-image: linear-gradient(to bottom left, rgb(102, 10, 10),black);
+}
+.div5 .container{
+    width:50%;
+    height:70%;
+   margin:10% 30% 10% 30%;
+   padding-bottom:5px;
+   display:flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+justify-content: space-between;
+  
+}
+.div5 .container .box{
+    /* position: relative; */
+    width:30%;
+    height: 20%;
+    margin:5px;
+    box-sizing:border-box;
+    
+}
+.div5 .container .box .imgbox1{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel3.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+}
+.div5 .container .box .imgbox2{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png");
+   background-repeat: no-repeat;
+   background-size: cover; display: flex;
+   justify-content: center;
+}
+.div5 .container .box .imgbox3{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png");
+   background-repeat: no-repeat;
+   background-size: cover;display: flex;
+   justify-content: center;
+}
+.div5 .container .box .imgbox4{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}.div5 .container .box .imgbox5{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel4.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}.div5 .container .box .imgbox6{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel5.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}.div5 .container .box .imgbox7{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel6.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}.div5 .container .box .imgbox8{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel7.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}.div5 .container .box .imgbox9{
+    position: relative;
+    width:100%;
+    height:100%;
+    background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel8.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+
+.div6{
+      width:100%; 
+      height:25em;
+   
+      background-image: linear-gradient(to bottom left, rgb(102, 10, 10),black);  
+   }
+   .div6 input, .div6 select {
+       width:18%;
+       height:2em;
+   }
+   #submit1{
+    width:7%;
+    height:2em;
+   
+   }
+   .container7{
+       width:100%;
+       height:20%;
+       display:flex;
+       justify-content: center;
+       overflow: hidden;
+   }
+   .container7 textarea{
+    width: 50%;
+   }
+   #view1{
+     
+    display:none;
+    width: 40%;
+    height:3em;
+    margin-top: 20%;
+}  
+
+ #view11{
+    display:none;
+    width: 50%;
+    height:3em;
+    margin-top: 40%;
+} 
+.imag1{
+    width:20%;
+    height: 10em;
+  margin-top:40px;
+ background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel.png");
+ display: flex;
+ justify-content: center;
+    }
+    .imag2{
+        width:20%;
+        height: 10em;
+      margin-top:40px;
+     background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel1.png");
+     display: flex;
+     justify-content: center;
+        }
+        .imag3{
+            width:20%;
+            height: 10em;
+          margin-top:40px;
+         background-image: url("https://iyadhkhalfallah.github.io/checkpointsGMC/res/tracks/Objet%20dynamique%20vectoriel2.png");
+         display: flex;
+         justify-content: center;
+            }
+/* Make the image fully responsive */
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
